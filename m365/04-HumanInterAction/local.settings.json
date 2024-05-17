@@ -1,0 +1,31 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME_VERSION": "7.2",
+    "FUNCTIONS_WORKER_RUNTIME": "powershell",
+    "AppCertThumbprint": "ADD-YOUR-OWN-APPCERTTHUMBPRINT",
+    "AppClientId": "ADD-YOUR-OWN-APPID",
+    "AppCurrencyList": "Currency",
+    "AppMarvelHeroesDocLib": "Comics",
+    "AppReportDocLib": "CReports",
+    "AppSiteUrl": "ADD-YOUR-OWN-SITE",
+    "AppTeamsApprovalWebHookUrl": "ADD-YOUR-OWN-MSTEAMS-WEBHOOK",
+    "AppTeamsWebHookUrl": "ADD-YOUR-OWN-MSTEAMS-WEBHOOK",
+    "AppTenant": "ADD-YOUR-OWN.onmicrosoft.com",
+    "APP_HERO_LIMIT": 20,
+    "APP_IS_LOCAL": "true",
+    "APP_MARVEL_API_CHARACTER_URL": "http://gateway.marvel.com/v1/public/characters?nameStartsWith={0}&apikey={1}&ts={2}&hash={3}",
+    "APP_MARVEL_API_COMIC_URL": "http://gateway.marvel.com/v1/public/comics?characters={0}&apikey={1}&ts={2}&hash={3}&limit={4}",
+    "APP_MARVEL_API_PRV_KEY": "ADD-YOUR-OWN-MARVEL-APP-PRV-KEY",
+    "APP_MARVEL_API_PUB_KEY": "ADD-YOUR-OWN-MARVEL-APP-PUB-KEY",
+    "APP_WEATHER_API_KEY": "ADD-YOUR-OWN-WEATHER-APPI-KEY",
+    "APP_WEATHER_API_URL": "http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}",
+    "AppCurrencyTable": "Currency",
+    "AppStorageAccountName": "stocloudfilespt",
+    "AppStorageRGName": "rg_cloudsum",
+    "AppSubscriptionId": "7321b225-bf7f-4103-8442-7696a7c18951",
+    "AppTenantId": "cb12aa4a-b009-44fa-9071-64b162296d05",
+    "AzureFunctionsJobHost__extensions__durableTask__hubName": "TestHubName376737682",
+    "AppReportCenter": "ADD-YOUR-OWN-SITE CREPORTS IS A DOCLIB example: https://xyz.sharepoint.com/sites/abc/CReports"
+  }
+}

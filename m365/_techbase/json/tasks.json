@@ -1,0 +1,24 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "func",
+			"label": "func: host start",
+			"command": "host start",
+			"problemMatcher": "$func-powershell-watch",
+            "dependsOn": ["pdragon-azdrblfx-init-script"],
+			"isBackground": true
+		},{
+            "label": "start-and-run-script",
+            "dependsOn": ["func: host start"],
+            "problemMatcher": []
+        },
+        {
+            "label": "pdragon-azdrblfx-init-script",
+            "type": "shell",
+            "command": "pwsh",
+            "args": ["-File", "${workspaceFolder}\\.vscode\\_pdragon\\ps1\\_droctopus.ps1", "${workspaceFolder}"],
+            "problemMatcher": []
+        }
+	]
+}

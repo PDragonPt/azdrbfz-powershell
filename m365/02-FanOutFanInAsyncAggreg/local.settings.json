@@ -1,0 +1,28 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "ADD-YOUR-OWN",
+    "FUNCTIONS_WORKER_RUNTIME": "powershell",
+    "FUNCTIONS_WORKER_RUNTIME_VERSION": "7.2",
+    "AppCertThumbprint": "ADD-YOUR-OWN-APPCERTTHUMBPRINT",
+    "AppClientId": "ADD-YOUR-OWN-APPID",
+    "AppCurrencyList": "Currency",
+    "AppSiteUrl": "ADD-YOUR-OWN-SITE",
+    "AppTenant": "ADD-YOUR-OWN.onmicrosoft.com",
+    "APP_IS_LOCAL": "true",
+    "APP_MARVEL_API_PRV_KEY": "ADD-YOUR-OWN-MARVEL-APP-PRV-KEY",
+    "APP_MARVEL_API_PUB_KEY": "ADD-YOUR-OWN-MARVEL-APP-PUB-KEY",
+    "APP_MARVEL_IMAGES_PATH": "./images",
+    "APP_WEATHER_API_KEY": "ADD-YOUR-OWN-WEATHER-APPI-KEY",
+    "APP_WEATHER_API_URL": "http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}",
+    "APP_MARVEL_API_CHARACTER_URL": "http://gateway.marvel.com/v1/public/characters?nameStartsWith={0}&apikey={1}&ts={2}&hash={3}",
+    "APP_MARVEL_API_COMIC_URL": "http://gateway.marvel.com/v1/public/comics?characters={0}&apikey={1}&ts={2}&hash={3}&limit={4}",
+    "AppMarvelHeroesDocLib": "Comics",
+    "APP_HERO_LIMIT": 20,
+    "AppReportDocLib": "CReports",
+    "AppTeamsApprovalWebHookUrl": "ADD-YOUR-OWN-MSTEAMS-WEBHOOK",
+    "AppTeamsWebHookUrl": "ADD-YOUR-OWN-MSTEAMS-WEBHOOK",
+    "AzureFunctionsJobHost__extensions__durableTask__hubName": "TestHubName72838374",
+    "AppReportCenter": "ADD-YOUR-OWN-SITE CREPORTS IS A DOCLIB example: https://xyz.sharepoint.com/sites/abc/CReports"
+  }
+}

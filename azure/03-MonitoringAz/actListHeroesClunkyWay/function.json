@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "CharacterName",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+    
+  ]
+
+}

@@ -1,0 +1,5 @@
+﻿POST http://localhost:7071/api/orchestrators/orchProcess?hero=Wolverine
+
+###
+
+POST http://localhost:7071/api/orchestrators/orchProcess?hero=Spider-Man

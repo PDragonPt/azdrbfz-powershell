@@ -1,0 +1,9 @@
+{
+  "bindings": [
+    {
+      "name": "processurl",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}

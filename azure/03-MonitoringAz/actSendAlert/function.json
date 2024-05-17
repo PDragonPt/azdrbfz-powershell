@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "TeamsWebHookUrl",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+    
+  ]
+
+}

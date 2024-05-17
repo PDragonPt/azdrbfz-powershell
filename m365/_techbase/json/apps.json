@@ -1,0 +1,38 @@
+{
+    "Apps": [
+        {
+            "Name": "M365Demo",
+            "Props":[
+                {
+                    "APP_IS_LOCAL":"true",
+                    "AppTenant": "ADD-YOUR-OWN.onmicrosoft.com",
+                    "AppClientId":"ADD-YOUR-OWN-APPID",
+                    "AppCertThumbprint": "ADD-YOUR-OWN-APPCERTTHUMBPRINT",
+                    "AppSiteUrl": "ADD-YOUR-OWN-SITE",
+                    "AppCurrencyList": "Currency",
+                    "AppMarvelHeroesDocLib": "Comics",
+                    "AppReportDocLib": "CReports",
+                    "AppReportCenter": "ADD-YOUR-OWN-SITE CREPORTS IS A DOCLIB example: https://xyz.sharepoint.com/sites/abc/CReports",
+                    "AppTeamsWebHookUrl": "ADD-YOUR-OWN-MSTEAMS-WEBHOOK",
+                    "AppTeamsApprovalWebHookUrl": "ADD-YOUR-OWN-MSTEAMS-WEBHOOK",
+                    "APP_MARVEL_API_PUB_KEY": "ADD-YOUR-OWN-MARVEL-APP-PUB-KEY",
+                    "APP_MARVEL_API_PRV_KEY":  "ADD-YOUR-OWN-MARVEL-APP-PRV-KEY",
+                    "APP_MARVEL_API_CHARACTER_URL":"http://gateway.marvel.com/v1/public/characters?nameStartsWith={0}&apikey={1}&ts={2}&hash={3}",
+                    "APP_MARVEL_API_COMIC_URL":"http://gateway.marvel.com/v1/public/comics?characters={0}&apikey={1}&ts={2}&hash={3}&limit={4}",
+                    "APP_HERO_LIMIT":20,
+                    "APP_WEATHER_API_KEY" : "ADD-YOUR-OWN-WEATHER-APPI-KEY",
+                    "APP_WEATHER_API_URL": "http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}"
+                 }
+            ]
+        },
+        {
+            "Name": "ADD YOUR OWN SETTINGS",
+            "Props":[
+                {
+                    "App_IS_LOCAL":"true",
+                    "WHATEVER":"WHATEVER"
+                 }
+            ]
+        }
+    ]
+}

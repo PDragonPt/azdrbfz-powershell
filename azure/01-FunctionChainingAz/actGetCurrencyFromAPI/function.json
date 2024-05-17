@@ -1,0 +1,9 @@
+{
+  "bindings": [
+    {
+      "name": "currency",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}
